@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es-CL">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LA TIENDA DE PEPITA</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- ================= NAVBAR ================= -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">MJ Escritora</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#menuNav"
+          aria-controls="menuNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menuNav">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Inicio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="biografia.html">Biografía</a>
+            </li>
+          </ul>
+
+          <a href="carro.html" class="btn btn-warning"> Mi Carro </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ================= HEADER ================= -->
+    <header class="bg-light py-5 text-center">
+      <div class="container">
+        <h1 class="display-5 fw-bold">María José Espinoza Albornoz</h1>
+        <p class="lead">Tienda literaria oficial</p>
+      </div>
+    </header>
+
+    <!-- ================= CONTENIDO PRINCIPAL ================= -->
+    <main class="container my-5">
+      <section class="text-center mb-5">
+        <h2>¡Bienvenido a mi tienda literaria!</h2>
+        <p>Encuentra todas mis publicaciones y libros.</p>
+        <a href="productos.html" class="btn btn-primary btn-lg">
+          Explorar libros
+        </a>
+      </section>
+
+      <!-- ================= CARDS ================= -->
+      <section>
+        <h2 class="text-center mb-4">Libros Destacados</h2>
+
+        <div class="row g-4">
+          <!-- Card 1 -->
+          <div class="col-md-3">
+            <div class="card h-100">
+              <img
+                src="assets/img/imagen1.jpg"
+                class="card-img-top"
+                alt="Portada libro Candelaria"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Candelaria</h5>
+                <p class="card-text">
+                  Novela histórica ambientada en el Chile de 1820.
+                </p>
+              </div>
+              <div class="card-footer text-center">
+                <a href="productos.html" class="btn btn-primary mb-2 w-100"
+                  >Ver más</a
+                >
+                <button class="btn btn-success w-100">
+                  🛒 Agregar al carrito
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="col-md-3">
+            <div class="card h-100">
+              <img
+                src="assets/img/imagen2.jpg"
+                class="card-img-top"
+                alt="Portada libro El Testigo"
+              />
+              <div class="card-body">
+                <h5 class="card-title">El Testigo</h5>
+                <p class="card-text">
+                  Historia policial llena de misterio e intriga.
+                </p>
+              </div>
+              <div class="card-footer text-center">
+                <a href="productos.html" class="btn btn-primary mb-2 w-100"
+                  >Ver más</a
+                >
+                <button class="btn btn-success w-100">
+                  🛒 Agregar al carrito
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="col-md-3">
+            <div class="card h-100">
+              <img
+                src="assets/img/imagen3.jpg"
+                class="card-img-top"
+                alt="Portada libro La Batalla de Bellalis"
+              />
+              <div class="card-body">
+                <h5 class="card-title">La Batalla de Bellalis</h5>
+                <p class="card-text">
+                  Novela infantil con aventuras emocionantes.
+                </p>
+              </div>
+              <div class="card-footer text-center">
+                <a href="productos.html" class="btn btn-primary mb-2 w-100"
+                  >Ver más</a
+                >
+                <button class="btn btn-success w-100">
+                  🛒 Agregar al carrito
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="col-md-3">
+            <div class="card h-100">
+              <img
+                src="assets/img/imagen4.jpg"
+                class="card-img-top"
+                alt="Portada libro Matergonia"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Matergonia</h5>
+                <p class="card-text">
+                  Año 2057. Las corporaciones dominan el mundo mediante la
+                  inteligencia artificial.
+                </p>
+              </div>
+              <div class="card-footer text-center">
+                <a href="productos.html" class="btn btn-primary mb-2 w-100"
+                  >Ver más</a
+                >
+                <button class="btn btn-success w-100">
+                  🛒 Agregar al carrito
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="bg-dark text-white text-center py-4">
+      <div class="container">
+        <p class="mb-0">
+          &copy; 2024 Tienda oficial de MJ Escritora. Todos los derechos
+          reservados.
+        </p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

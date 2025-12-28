@@ -1,0 +1,111 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Cambria, serif;
+    color: black;
+}
+
+/* Contenedor del menú */
+.navegacion {
+    background-color: #222;
+    padding: 12px 0;
+}
+
+/* Lista del menú */
+.nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;        /* Centra verticalmente */
+    justify-content: center;    /* 🔑 Centra horizontalmente el texto */
+    gap: 25px;
+
+    max-width: 900px;           /* 🔑 Ajusta el ancho del menú */
+    margin: 0 auto;             /* 🔑 Centra el menú */
+    padding: 0 20px;
+}
+
+/* Items */
+.nav-item {
+    display: inline;
+}
+
+/* Links */
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9rem;          /* Ajuste de tamaño de fuente */
+}
+
+.nav-link:hover {
+    color: #ff9800;
+}
+
+/* Botón "Mi carro" */
+.nav-list li:last-child {
+    margin-left: auto;          /* Empuja el botón a la derecha */
+}
+
+.btn-mi-carro {
+    padding: 6px 14px;
+    font-size: 0.85rem;
+    background-color: #ff9800;  /* Color de fondo */
+    color: white;               /* Color del texto */
+    border: none;
+    border-radius: 4px;
+}
+/* TABLET (≤ 768px)*/
+@media (max-width: 768px) {
+
+    .nav-list {
+        gap: 15px;
+        font-size: 0.85rem;
+    }
+
+    .btn-mi-carro {
+        padding: 6px 12px;
+        font-size: 0.8rem;
+    }
+}
+
+/* MÓVIL (≤ 480px) */
+@media (max-width: 480px) {
+
+    .nav-list {
+        flex-direction: column;     /*Menú vertical */
+        align-items: center;
+        gap: 12px;
+    }
+
+    /* El botón deja de ir a la derecha */
+    .nav-list li:last-child {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .nav-link {
+        font-size: 1rem;
+    }
+
+    .btn-mi-carro {
+        width: 100%;
+        text-align: center;
+    }
+}
+.card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+main {
+    margin-bottom: 40px;
+}
+.card {
+    max-width: 250px;   /* Ajusta el tamaño de la card */
+    margin: 0 auto;     /* Centra la card */
+}
+.contacto {
+    background-color: #222;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 40px;
+}
