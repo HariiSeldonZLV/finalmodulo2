@@ -1,0 +1,1 @@
+En este proyecto avance lo que pude con lo aprendido, lo que mas me costó fue CSS y entender Bootstrap, use ayuda de IA para corregir los errores, la web es para mi señora que es escritora, por lo que las imganes y textos son todas originales. Me base en la tienda de amazon y como ofrece los libros.
